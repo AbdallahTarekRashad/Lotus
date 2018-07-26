@@ -12,5 +12,5 @@ $config =
 ];
 $FB = new \Facebook\Facebook($config);
 $helper = $FB->getRedirectLoginHelper();
-$redirectURL = 'http://localhost/Lotas/Controllers/facebookUserController.php';
+$redirectURL = 'http://localhost/Lotus/Controllers/facebookUserController.php';
 
