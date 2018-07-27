@@ -2,6 +2,11 @@
 include_once 'DB.php';
 class Admin
 {
+    /*
+    **function loginAdmin take emaol of admin and check if he is exist or not 
+    **if exist return his data and if not return false
+    */
+    
     public function loginAdmin($email)
     {
         $db = new DB();

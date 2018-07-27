@@ -13,6 +13,9 @@ class DB extends PDO
         $result = $this->prepare($q);
         $result->execute();
     }
+    /*
+    **for select arabic data from DataBase
+    */
     public function arabic()
     {
         $q = "SET NAMES utf8";
