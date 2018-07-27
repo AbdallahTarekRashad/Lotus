@@ -289,7 +289,6 @@ include_once 'NavBar.php'; ?>
 
         </div><br>
     </div>
-    <input type="number" name="productId" value="" style="display: none;">
     <!-- Model Order -->
     <?php
     $numOfProduct = count($productData);
@@ -320,7 +319,7 @@ include_once 'NavBar.php'; ?>
                                     <div class="form-group">
                                         <span style="color: green">Full Price : </span><span id="total_price">0 </span> EGP<br>
                                     </div>
-                                    <input name="submit" type="submit" class="btn btn-success apply_btn" value="Order" >
+                                    <input name="Order" type="submit" class="btn btn-success apply_btn" value="Order" >
                                 </form>
                             </div>
 

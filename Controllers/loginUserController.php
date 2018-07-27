@@ -8,7 +8,7 @@ if(!isset($_SESSION))
 {
 	session_start();
 }
-if($_POST['submit'] == 'LogIn')
+if(isset($_POST['LogIn']))
 {
 	try
     {

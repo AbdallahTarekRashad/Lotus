@@ -213,7 +213,7 @@ include_once 'NavBar.php';
                                         <input  class="form-control" type="file" name="image">
                                     </div>
                                 </div>
-                                <input name="submit" type="submit" class="btn btn-success" style="width: 100%" value="Update" >
+                                <input name="Update" type="submit" class="btn btn-success" style="width: 100%" value="Update" >
                             </form>
                         </div>
                     </div>
@@ -243,7 +243,7 @@ include_once 'NavBar.php';
                                     <label >Phone :</label>
                                     <input type="text" class="form-control" placeholder="'.$phone.'" name="phone" >
                                 </div>
-                                <input name="submit" type="submit" class="btn btn-success" style="width: 100%" value="Update" >
+                                <input name="Update" type="submit" class="btn btn-success" style="width: 100%" value="Update" >
                             </form>
                         </div>
                     </div>

@@ -3,7 +3,7 @@ if(!isset($_SESSION))
 {
 	session_start();
 }
-if($_POST['submit'] == 'addcategory' && isset($_SESSION['admin']))
+if(isset($_POST['addcategory']) && isset($_SESSION['admin']))
 {
     try
     {

@@ -119,7 +119,7 @@ $google = $gClient->createAuthUrl();
 
                                         <input class="input_" type="text" name="email" placeholder="Username" required style="color:#000">
                                         <input class="input_" type="password" name="password" placeholder="Password"    required style="color:#000">
-                                        <input name="submit" type="submit" class="input_" value="LogIn" >
+                                        <input name="LogIn" type="submit" class="input_" value="LogIn" >
                                     </div>
                                 </div>
                             </form>
@@ -174,7 +174,7 @@ $google = $gClient->createAuthUrl();
                                     <input required="required" type="file" name="image" class="form-control" >
                                 </div>
                             </div>
-                            <input name="submit" type="submit" class="btn btn-success" style="width: 100%" value="SignUp" >
+                            <input name="SignUp" type="submit" class="btn btn-success" style="width: 100%" value="SignUp" >
                         </form>
                     </div>
                     
@@ -201,7 +201,7 @@ $google = $gClient->createAuthUrl();
                                 <span>اسم النوع</span>
                                 <input  type="text" class="form-control"  placeholder="اسم النوع" name="name_ar" required>
                             </div>
-                            <input name="submit" type="submit" class="btn btn-success" style="width: 100%" value="addcategory" >
+                            <input name="addcategory" type="submit" class="btn btn-success" style="width: 100%" value="addcategory" >
                         </form>
                         <form action="../Controllers/deleteCategoryController.php" method="post" class="well">
                             <div class="form-group">
@@ -217,7 +217,7 @@ $google = $gClient->createAuthUrl();
                                     }
                                     ?>
                                 </select>
-                                <input name="submit" type="submit" class="btn btn-success" style="width: 100%" value="DeleteCategory" >
+                                <input name="DeleteCategory" type="submit" class="btn btn-success" style="width: 100%" value="DeleteCategory" >
                             </div>
                         </form>
                     </div>

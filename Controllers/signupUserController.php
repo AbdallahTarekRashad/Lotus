@@ -10,7 +10,7 @@ if(!isset($_SESSION))
 {
 	session_start();
 }
-if($_POST['submit'] == 'SignUp')
+if(isset($_POST['SignUp']))
 {
 	try
     {

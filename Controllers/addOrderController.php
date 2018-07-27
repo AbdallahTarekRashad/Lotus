@@ -3,7 +3,7 @@ if(!isset($_SESSION))
 {
 	session_start();
 }
-if($_POST['submit'] == 'Order'&& isset($_SESSION['id']))
+if(isset($_POST['Order'])&& isset($_SESSION['id']))
 {
     try
     {

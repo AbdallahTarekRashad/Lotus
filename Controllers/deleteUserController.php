@@ -3,7 +3,7 @@ if(!isset($_SESSION))
 {
 	session_start();
 }
-if($_GET['submit'] == 'DeleteUser')
+if($_GET['submit'] == 'DeleteUser' && isset($_SESSION['id']))
 {
     try
     {

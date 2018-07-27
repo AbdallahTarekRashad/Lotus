@@ -3,7 +3,7 @@ if(!isset($_SESSION))
 {
 	session_start();
 }
-if($_GET['submit'] == 'block' && isset($_SESSION['admin']) && (strcmp($_SERVER['HTTP_REFERER'] , 'http://localhost/Lotas/Models/testModels.php') >=0))
+if($_GET['submit'] == 'block' && isset($_SESSION['admin']))
 {
     try
     {

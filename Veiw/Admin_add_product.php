@@ -134,7 +134,7 @@ include './NavBar.php'; ?>
             </div>
         </div>
         <div class="done_container">
-            <input type="submit" name="submit" value="addProduct"
+            <input type="submit" name="addProduct" value="addProduct"
                    class="btn btn-success btn-md done">
         </div>
 

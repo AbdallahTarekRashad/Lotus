@@ -8,7 +8,7 @@ if(!isset($_SESSION))
 {
 	session_start();
 }
-if($_POST['submit'] == 'addProduct' && isset($_SESSION['admin']))
+if(isset($_POST['addProduct'])&& isset($_SESSION['admin']))
 {
     if(isset($_FILES))
     {

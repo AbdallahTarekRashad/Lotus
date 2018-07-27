@@ -3,7 +3,7 @@ if(!isset($_SESSION))
 {
 	session_start();
 }
-if($_POST['submit'] == 'Update' && $_SESSION['oauth_provider'] == 'lotus')
+if(isset($_POST['Update']) && $_SESSION['oauth_provider'] == 'lotus')
 {
     try
     {
